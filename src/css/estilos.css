@@ -129,15 +129,15 @@ header {
 }
 
 .conteudo-principal .paineis .projeto1 {
-    background-image: url('../imagens/painel1.jpg');
+    background-image: url('../imagens-xpto/painel1.jpg');
 }
 
 .conteudo-principal .paineis .projeto2 {
-    background-image: url('../imagens/painel2.jpg');
+    background-image: url('../imagens-xpto/painel2.jpg');
 }
 
 .conteudo-principal .paineis .projeto3 {
-    background-image: url('../imagens/painel3.jpg');
+    background-image: url('../imagens-xpto/painel3.jpg');
 }
 
 .conteudo-principal .paineis .titulo {
@@ -147,7 +147,7 @@ header {
 }
 
 .conteudo-principal .paineis .seta {
-    background-image: url('../imagens/seta.png');
+    background-image: url('../imagens-xpto/seta.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
