@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Public Sans', sans-serif;
+    background-color: #fff;
 }
 
 * {
@@ -53,10 +54,6 @@ html {
 /* LOGO */
 
 /* CABEÇALHO */
-
-header {
-    background-color: #fff;
-}
 
 .cabecalho {
     display: flex;
@@ -221,10 +218,6 @@ header {
 /* QUEM SOMOS */
 
 /* RODAPE */
-
-footer {
-    background-color: #fff;
-}
 
 .rodape {
     padding: 80px 0; 
