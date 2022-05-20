@@ -1,35 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
 
-body {
-    font-family: 'Public Sans', sans-serif;
-    background-color: #ffffffff;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #000;
-}
-
-img {
-    max-width: 100%;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* LOGO */
-
 .logo .imagem {
     width: 100px;
 }
@@ -41,19 +11,15 @@ html {
 }
 
 .logo .titulo {
-    margin-left: 7px;
+    margin: 0 0 0 7px;
     font-size: 17px;
-    transition: 0.3s ease-in-out;
     font-weight: 800;
+    transition: 0.3s ease-in-out;
 }
 
 .logo .titulo:hover {
     color: #1ED760;
 }
-
-/* LOGO */
-
-/* CABEÇALHO */
 
 .cabecalho {
     display: flex;
@@ -63,19 +29,6 @@ html {
     max-width: 1170px;
     margin: 0 auto;
     flex-wrap: wrap;
-}
-
-@media(max-width: 624px) {
-    .cabecalho {
-        justify-content: center;
-    }
-    .cabecalho .logo {
-        margin-bottom: 30px;
-    }
-    
-    .cabecalho .menu .item a {
-        font-size: calc(0.6em + 1vw)
-    }
 }
 
 .cabecalho .navegacao .menu {
@@ -96,10 +49,6 @@ html {
     color: #fff;
 }
 
-/* CABECALHO */
-
-/* PAINEIS */
-
 .conteudo-principal .paineis {
     display: flex;
     justify-content: center;
@@ -108,16 +57,9 @@ html {
     position: relative;
 }
 
-@media(max-width: 900px) {
-    .conteudo-principal .paineis {
-        height: 500px;
-    }
-}
-
 .conteudo-principal .paineis .imagem-painel {
-    background-repeat: no-repeat;
+    background: no-repeat center;
     background-size: cover;
-    background-position: center;
     min-width: 100%;
     height: 100%;
     position: absolute;
@@ -144,11 +86,8 @@ html {
 }
 
 .conteudo-principal .paineis .seta {
-    background-image: url('../imagens-xpto/seta.png');
+    background: url('../imagens-xpto/seta.png') no-repeat center;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50px;
     height: 50px;
     position: absolute;
     text-indent: 100%;
@@ -163,10 +102,6 @@ html {
 .conteudo-principal .paineis .seta.bnt-avancar {
     right: 20px; 
 }
-
-/* PAINEIS */
-
-/* QUEM SOMOS */
 
 .quem-somos {
     background-color: #2941AB;
@@ -199,28 +134,8 @@ html {
     font-weight: 400;
 }
 
-@media(max-width: 1200px) {
-    .quem-somos .conteudo {
-        flex-direction: column;
-        text-align: center;
-        padding: 100px 30px;
-    }
-
-    .quem-somos .conteudo .imagem {
-        display: none;
-    }
-
-    .quem-somos .conteudo .informacoes {
-        width: 100%;
-    }
-}
-
-/* QUEM SOMOS */
-
-/* RODAPE */
-
 .rodape {
-    padding: 80px 0; 
+    padding: 60px 0 20px; 
 }
 
 .rodape .navegacao {
@@ -240,11 +155,11 @@ html {
     display: flex;
     justify-content: center;
     margin: 0 10px;
-    font-size: 30px;
+    font-size: 20px;
     border: 2px solid #111;
     border-radius: 50%;
-    padding: 15px;
-    width: 70px;
+    padding: 10px;
+    width: 50px;
     transition: 0.3s ease-in-out;
 }
 
@@ -253,24 +168,6 @@ html {
 }
 
 .rodape .copyright {
-    margin-top: 70px;
+    margin: 70px 0 0;
     text-align: center;
 }
-
-@media(max-width: 940px) {
-    .rodape .navegacao {
-        justify-content: center;
-    }
-
-    .rodape .navegacao .logo {
-        margin-bottom: 30px;
-    }
-
-    .rodape .navegacao .logo,
-    .rodape .navegacao .redes-sociais {
-        width: 100%;
-        justify-content: center;
-    }
-}
-
-/* RODAPE */
