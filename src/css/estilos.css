@@ -65,6 +65,8 @@
     position: absolute;
     z-index: -1;
     filter: brightness(70%);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
 .conteudo-principal .paineis .projeto1 {
@@ -77,6 +79,10 @@
 
 .conteudo-principal .paineis .projeto3 {
     background-image: url('../imagens-xpto/painel3.jpg');
+}
+
+.conteudo-principal .paineis .imagem-painel.mostrar {
+    opacity: 1;
 }
 
 .conteudo-principal .paineis .titulo {
