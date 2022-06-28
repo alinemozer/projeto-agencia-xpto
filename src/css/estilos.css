@@ -100,12 +100,12 @@
     overflow: hidden;
 }
 
-.conteudo-principal .paineis .seta.bnt-voltar {
+.conteudo-principal .paineis .seta.btn-voltar {
     left: 20px;
     transform: rotatey(180deg);
 }
 
-.conteudo-principal .paineis .seta.bnt-avancar {
+.conteudo-principal .paineis .seta.btn-avancar {
     right: 20px; 
 }
 
